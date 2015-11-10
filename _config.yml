@@ -1,26 +1,38 @@
-name: Seth Zora
-favicon: null
-layout_spectrum: 0.9576775545720011
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+typography_spectrum: 0.7943424053955823
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+layout_spectrum: 0.9576775545720011
+cta:
+  bucket: null
+  version: null
+  domain: null
 color:
-  brandColors: []
-  brandStrength: 0
-  lightness: 0.5
   saturation: 0.5
+  brandStrength: 0
   rhythmicContrast: 0.5
+  brandColors: []
+  lightness: 0.5
 purpose:
   - name: engagement
-    item: null
     url: null
-typography_spectrum: 0.7943424053955823
+    item: null
+favicon: null
+name: Seth Zora
+analytics:
+  twitter: null
+  google: null
+  facebook: null
